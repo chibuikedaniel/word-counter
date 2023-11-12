@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #00296b;
+}
+
+#container {
+    width: 100%;
+
+}
+
+#container .word-counter h1{
+    text-align: center;
+}
+
+.word-counter {
+    width: 30%;
+    min-height: 300px;
+    margin: 50px auto;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+}
+
+#input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+#word-count {
+    margin-top: 10px;
+    font-size: 18px;
+}
